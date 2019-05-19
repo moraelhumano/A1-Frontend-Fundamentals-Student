@@ -1,87 +1,26 @@
-# Ejercicio: Desarrollar Home "Bedu travels"
+# Ejercicio: Crear Respositorio para "Bedu travels"
 
-Desarrollaremos la vista de home de Bedu Travels usando HTML y CSS
+Definiremos la estructura de nuestro repositorio en GitHub
 
-## Requerimientos
+## Requerimientos 
 - HTML
 - CSS
 
-<div style="background-color:green;"><h1 style="color:white;">Creando el index.html</h1></div>
+<div style="background-color:green;"><h1 style="color:white;">Creando el Repositorio</h1></div>
 
-## Iteración 1: Prepara tus carpetas y documentos
+## Iteración 1: Crea tu Repositorio
 
-- Crea una estructura básica de un proyecto de HTML y CSS
+- Crea un repositorio dentro de GitHub
 
-## Iteración 2: Crea un NavBar usando HTML
+## Iteración 2: Define las Branchs Necesarias para tu Repositorio
 
-- Utilizando solamente HTML desarrolla la estructura de un NavBar
+- Por medio de los comandos de git genera las Branch que usaremos a lo largo
+del proyecto
 
-## Iteración 3: Crea los estilos de nuestro NavBar
+## Iteración 3: Marca la la línea del tiempo de tu Repositorio por medio de Commits
 
-- Conecta ambos documentos index.html y main.css
+- Retomaremos el código de las sesiones anteriores, para almacenarlo en nuestro repositorio
 
-- Desarrolla los estilos de nuestro NavBar
+- En la branch “home” dentro del documento index.html copiaremos el código de nuestro home
 
-- Debe contener los siguientes elementos
-
-  * Logo
-  * SignIn
-  * SignUp
-
-## Iteración 4: Crea una portada para nuestro Home
-
-- Crea una portada para el Home de nuestro sitio
-
-- Deberá de contener una etiqueta input para realizar busquedas
-
-## Iteración 5: Crea un Footer para nuestro Home
-
-- Usando la semántica de HTML 5 crea un Footer para nuestro home
-
-- Debe de contener
-
-  * Enlace a Redes Sociales
-
-  # Ejercicio: Desarrollar Home "Bedu travels"
-
-  Desarrollaremos la vista de home de Bedu Travels usando HTML y CSS
-
-  ## Requerimientos
-  - HTML
-  - CSS
-
-  <div style="background-color:green;"><h1 style="color:white;">Creando el index.html</h1></div>
-
-  ## Iteración 1: Prepara tus carpetas y documentos
-
-  - Crea una estructura básica de un proyecto de HTML y CSS
-
-  ## Iteración 2: Crea un NavBar usando HTML
-
-  - Utilizando solamente HTML desarrolla la estructura de un NavBar
-
-  ## Iteración 3: Crea los estilos de nuestro NavBar
-
-  - Conecta ambos documentos index.html y main.css
-
-  - Desarrolla los estilos de nuestro NavBar
-
-  - Debe contener los siguientes elementos
-
-    * Logo
-    * SignIn
-    * SignUp
-
-  ## Iteración 4: Crea una portada para nuestro Home
-
-  - Crea una portada para el Home de nuestro sitio
-
-  - Deberá de contener una etiqueta input para realizar busquedas
-
-  ## Iteración 5: Crea un Footer para nuestro Home
-
-  - Usando la semántica de HTML 5 crea un Footer para nuestro home
-
-  - Debe de contener
-
-    * Enlace a Redes Sociales
+- Deberá de hacerse un commit por cada parte elemento de nuestro sitio, como la navBar, la portada y el footer
