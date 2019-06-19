@@ -1,23 +1,24 @@
-# Ejercicio: Crear una Landing Page para "Bedu travels"
+##### Introducción
+## Bootstrap
+
+### OBJETIVO
 
 Usando Bootstrap como framework de CSS desarrollaremos una Landing Page informativo para el sitio de Bedu Travels
 
-## Requerimientos
-- HTML
-- CSS
-- Bootstrap
+### DESARROLLO
 
+Los temas que veremos durante esta sesión serán los siguientes:
 
-<div style="background-color:green;"><h1 style="color:white;">Creando estructura básica</h1></div>
+1. Agregaremos el CDN de Bootstrap en nuestra Landing
 
-## Iteración 1: Creando documentos base, conexión al CDN de Bootstrap y NavBar
+1. Implementaremos componentes de Bootstrap como:
 
-- Desde el sitio de Bootstrap copiaremos el CDN para tener disponibles todos los elementos de el framework
+- NavBar
 
-- Dentro de la biblioteca de elementos de Bootstrap buscaremos los elementos necesarios para crear un NavBar y hacer las modificaciones Necesarias
+- Jumbotron
 
-- Podremos usar el NavBar que nosotros deseemos
+- Grid
 
-- Buscaremos la modificación para los textos de nuestro NavBar
+- Modal
 
-## Iteración 2: Creando una portada para nuestro landing page
+- Carousel
