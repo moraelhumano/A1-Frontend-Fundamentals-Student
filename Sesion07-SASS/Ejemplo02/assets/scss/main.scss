@@ -1,0 +1,33 @@
+/*Colores*/
+$primary-color:#24272a;
+$white:#fff;
+
+/*Dimenciones*/
+$full-percentage:100%;
+$zero:0;
+
+/*Display*/
+$none:none;
+
+/*Fuentes*/
+$primary-font:'Roboto', sans-serif;;
+
+body{
+  margin: $zero;
+  padding: $zero;
+  font-family: $primary-font;
+}
+
+nav{
+  background-color: $primary-color;
+  height: 50px;
+  width: $full-percentage;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    a{
+      color: $white;
+      text-decoration: $none;
+      padding-right: 20px;
+    }
+}
