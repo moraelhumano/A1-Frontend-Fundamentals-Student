@@ -1,0 +1,107 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  #forms-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  form > input {
+    height: 20px;
+  }
+  
+  .button-send-info{
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .profile-info{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+  }
+  
+  .profile-inputs{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+  }
+  
+  .profile-inputs > input{
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 100%;
+      padding: 0;
+      font-size: 20px;
+      padding-left: 5px;
+      height: 40px;
+      border: 1px solid grey;
+      border-radius: 5px;
+  }
+  
+  .profile-container{
+    height: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-radius: 30px;
+  }
+  
+  .profile-container > div{
+    width: 80%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  
+  .profile-img{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profil_image > div{
+    border-radius: 50%;
+  }
+
+  .confirm-button{
+    padding: 7px 10px;
+    border: 1px solid #3eb368;
+    background: #3eb368;
+    color: #fff;
+    line-height: 17px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  /*Media queries para el diseño responsivo*/
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (max-width: 600px) {
+  .profile-container{
+    height: 60vh;
+  }
+
+  .profile-info{
+    padding: 0;
+  }
+
+  .profile-inputs{
+    width: 100%;
+  }
+
+}
